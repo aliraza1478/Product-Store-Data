@@ -1,0 +1,37 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    width: 100vw;
+    right: 35px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+
+.address {
+    max-width: 300px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+.footer-bottom {
+    font-size: 14px;
+}

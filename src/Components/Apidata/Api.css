@@ -1,0 +1,40 @@
+/* src/Api.css */
+
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     gap: 20px;
+    list-style: none;
+    position: relative;
+    left: 200px;
+    width:80%;
+    z-index: 0;
+   padding: 20px;
+    color: black;
+    top: 50px;
+    
+       
+    
+    
+  }
+  
+  .photo-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .photo-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .photo-card p {
+    margin: 10px 0 0;
+  }
+  

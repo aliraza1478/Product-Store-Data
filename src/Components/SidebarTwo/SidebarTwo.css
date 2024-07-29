@@ -1,0 +1,121 @@
+/* SidebarTwo.css */
+
+.sidebartwo {
+    position: fixed;
+    background-color: rgb(255, 0, 0, 1.0);
+    height:90vh; 
+    width: 20vw;
+    left: 0px;
+    top: 70px;
+    display: block;
+    padding: 0px;
+    z-index: 1200;
+    transition: width 0.3s;
+}
+  
+  .sidebartwo.collapsed {
+    width: 0;
+  }
+  
+  .sidebartwo p {
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .phone,
+  .docment,
+  .support,
+  .digital,
+  .Learning,
+  .Publication,
+  .Events,
+  .Jobopen,
+  .cafe,
+  .creative,
+  .Job {
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .phone .phn-icon,
+  .docment .doc-icon,
+  .support .sup-icon,
+  .digital .dig-acadmy,
+  .Learning .learn-hub,
+  .Publication .pub-icon,
+  .Events .even-calend,
+  .Jobopen .job-open,
+  .cafe .cafe-menu,
+  .creative .creative-form,
+  .Job .Job-Library {
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .docment {
+    bottom: 30px;
+  }
+  
+  .support {
+    bottom: 60px;
+  }
+  
+  .digital {
+    bottom: 90px;
+  }
+  
+  .Learning {
+    bottom: 120px;
+  }
+  
+  .Publication {
+    bottom: 150px;
+  }
+  
+  .Events {
+    bottom: 180px;
+  }
+  
+  .Jobopen {
+    bottom: 210px;
+  }
+  
+  .cafe {
+    bottom: 240px;
+  }
+  
+  .creative {
+    bottom: 270px;
+  }
+  
+  .Job {
+    bottom: 300px;
+  }
+  
+  /* Collapsed State Styles */
+  .sidebartwo.collapsed .phone,
+  .sidebartwo.collapsed .docment,
+  .sidebartwo.collapsed .support,
+  .sidebartwo.collapsed .digital,
+  .sidebartwo.collapsed .Learning,
+  .sidebartwo.collapsed .Publication,
+  .sidebartwo.collapsed .Events,
+  .sidebartwo.collapsed .Jobopen,
+  .sidebartwo.collapsed .cafe,
+  .sidebartwo.collapsed .creative,
+  .sidebartwo.collapsed .Job {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .sidebartwo {
+      width: 20vw;
+    }
+  }
+  

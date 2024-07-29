@@ -1,0 +1,20 @@
+.sidebar1{
+
+height: 15vh;
+width: 20vw;
+background-color:#db0000;
+position: fixed;
+left: 0px;
+top: 0px;
+z-index: 1200;
+ 
+}
+
+.logo{
+    height: 60%;
+    width: 30%;
+    margin-right:100px;
+    position: relative;
+    bottom: 20px;
+    
+}
